@@ -7,3 +7,4 @@ let abcd = 'test';
 let newThings = 'abcs';
 let devs = 'abc';
 let change = 'abc';
+let release = 'yes';
