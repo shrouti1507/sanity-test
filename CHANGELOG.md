@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.4.1 (2023-01-04)
+
+
+### Bug Fixes
+
+* **check:** fix var ([20b71a0](https://github.com/shrouti1507/sanity-test/commit/20b71a092ad28f5e3d662401d497818f9c190555))
+
 ## 1.4.0 (2023-01-04)
 
 
