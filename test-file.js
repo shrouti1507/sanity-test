@@ -1,3 +1,3 @@
 let first = '1';
-let check = 'check';
+let check = 'checks';
 
