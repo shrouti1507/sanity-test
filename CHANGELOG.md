@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.4.7 (2023-01-04)
+
+
+### Bug Fixes
+
+* **remove:** remove ([0c013b3](https://github.com/shrouti1507/sanity-test/commit/0c013b31182120439af4a580acb5afef740259c8))
+
 ### 1.4.6 (2023-01-04)
 
 
