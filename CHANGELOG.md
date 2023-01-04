@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.4.6 (2023-01-04)
+
+
+### Bug Fixes
+
+* **abcd:** efgh ([14738e9](https://github.com/shrouti1507/sanity-test/commit/14738e93c5ee3c6f8fd2ad4a4e615bb9749e4c7a))
+
 ### 1.4.5 (2023-01-04)
 
 
