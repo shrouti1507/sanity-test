@@ -4,4 +4,4 @@ let abc = 2;
 let hello = 'abcd';
 let newDev = '123';
 let abcd = 'test';
-let newThings = 'abc';
+let newThings = 'abcs';
