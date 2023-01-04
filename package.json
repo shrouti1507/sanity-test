@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/shrouti1507/sanity-test#readme",
   "dependencies": {
+    "conventional-github-releaser": "^3.1.5",
     "husky": "^8.0.3",
     "jest": "^29.3.1"
   }
