@@ -61,16 +61,15 @@ jobs:
           echo "DATE=$(date)" >> $GITHUB_ENV
 
       - name: Pull Changes Into develop Branch
+        env:
+            GITHUB_TOKEN: ${{ secrets.PAT }}
         uses: repo-sync/pull-request@v2
         with:
           source_branch: 'main'
           destination_branch: 'develop'
-          github_token: ${{ secrets.PAT }}
           pr_title: 'chore(release): pull main into develop post release v${{ steps.extract-version.outputs.release_version }}'
           pr_body: ':crown: *An automated PR*'
-        env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
-
+        
       - name: Delete Hotfix Release Branch
         uses: koj-co/delete-merged-action@master
         if: startsWith(github.event.pull_request.head.ref, 'hotfix-release/')
