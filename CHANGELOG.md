@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.2.2 (2023-01-04)
+
+
+### Bug Fixes
+
+* **new:** abc new ([265b68d](https://github.com/shrouti1507/sanity-test/commit/265b68d980dbf168f60b44c8cd512e438a979186))
+
 ### 1.2.1 (2023-01-04)
 
 
