@@ -91,5 +91,6 @@ jobs:
         if: startsWith(github.ref, 'refs/heads/hotfix/')
         with:
           branches: 'hotfix/*'
+          prefix: 'hotfix/'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  
