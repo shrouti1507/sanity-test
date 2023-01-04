@@ -68,6 +68,8 @@ jobs:
           github_token: ${{ secrets.PAT }}
           pr_title: 'chore(release): pull main into develop post release v${{ steps.extract-version.outputs.release_version }}'
           pr_body: ':crown: *An automated PR*'
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
 
       - name: Delete Hotfix Release Branch
         uses: koj-co/delete-merged-action@master
